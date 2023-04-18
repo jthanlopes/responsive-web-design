@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 39 - Cafe Menu</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!--
+    Step 39
+      Well that did not work. Styling the p elements as inline-block and placing them on
+      separate lines in the code creates an extra space to the right of the first p element,
+      causing the second one to shift to the next line. One way to fix this is to make each p
+      element's width a little less than 50%.
+
+      Change the width value to 49% for each class to see what happens.
+  -->
+
+  <div class="menu">
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+
+      <section>
+        <h2>Coffee</h2>
+
+        <article class="item">
+          <p class="flavor">French Vanilla</p>
+          <p class="price">3.00</p>
+        </article>
+        <article>
+          <p>Caramel Macchiato</p>
+          <p>3.75</p>
+        </article>
+        <article>
+          <p>Pumpkin Spice</p>
+          <p>3.50</p>
+        </article>
+        <article>
+          <p>Hazelnut</p>
+          <p>4.00</p>
+        </article>
+        <article>
+          <p>Mocha</p>
+          <p>4.50</p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
