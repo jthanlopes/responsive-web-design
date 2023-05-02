@@ -19,6 +19,12 @@ h1, h2, p {
   text-align: center;
 }
 
+hr {
+  height: 3px;
+  background-color: brown;
+  border-color: brown;
+}
+
 .menu {
   width: 80%;
   max-width: 500px;
