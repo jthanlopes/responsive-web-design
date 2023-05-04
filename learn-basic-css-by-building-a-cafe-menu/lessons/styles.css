@@ -49,8 +49,14 @@ hr {
 
 .item p {
   display: inline-block;
+  margin: 5px 0;
+  font-size: 18px;
 }
 
 .established {
   font-style: italic;
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
