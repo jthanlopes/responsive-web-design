@@ -4,6 +4,18 @@ body {
   padding: 20px;
 }
 
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
 h1 {
   font-size: 40px;
 }
