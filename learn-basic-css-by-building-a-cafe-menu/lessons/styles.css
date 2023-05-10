@@ -9,15 +9,20 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: black;
 }
 
 a:hover {
   color: brown;
 }
 
+a:active {
+  color: brown;
+}
+
 h1 {
   font-size: 40px;
+  margin-top: 0;
 }
 
 h2 {
