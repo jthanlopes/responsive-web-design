@@ -44,6 +44,11 @@ hr {
   border-color: brown;
 }
 
+img {
+  display: block;
+  margin: -25px auto 0;
+}
+
 .menu {
   width: 80%;
   max-width: 500px;
