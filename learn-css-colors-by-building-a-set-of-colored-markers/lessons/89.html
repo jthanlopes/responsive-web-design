@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Aula 89 - Colored Markers</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!--
+      Step 89
+        But what if you wanted to expand the shadow out further? You can do that with the optional spreadRadius
+        value:
+          box-shadow: offsetX offsetY blurRadius spreadRadius color;
+
+          Like blurRadius, spreadRadius defaults to 0 if it isn't included.
+
+          Practice by adding a 5 pixel shadow directly around the blue marker.
+
+          In the .blue CSS rule, add the box-shadow property with the values 0 for offsetX, 0 for offsetY, 0
+          for blurRadius, 5px for spreadRadius, and blue for color.
+    -->
+
+    <h1>CSS Color Markers</h1>
+    <div class="container">
+      <div class="marker red">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker green">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+      <div class="marker blue">
+        <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+    </div>
+  </body>
+</html>
