@@ -14,3 +14,20 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
+h1, p {
+  margin: 1em auto;
+  text-align: center
+}
+
+form {
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+fieldset {
+  border: 0;
+  padding: 2rem 0;
+}
