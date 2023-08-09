@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
 
     <link rel="stylesheet" href="./styles.css" />
-    <title>Aula 45 - Registration Form</title>
+    <title>Aula 47 - Registration Form</title>
   </head>
   <body>
     <!--
-      Step 45
-        During development, it is useful to see the fieldset default borders. However, they make the
-        content appear too separated.
+      Step 47
+        The border of the last fieldset element looks a little out of place. You can select the last
+        element of a specific type using the last-of-type CSS pseudo-class, like this:
+          p:last-of-type { }
 
-        Remove the border, and add 2rem of padding only to the top and bottom of each fieldset. Be sure
-        to remove the padding from the left and right.
+          That will select the last p element. Create a new selector that targets the last fieldset
+          element and set its border-bottom to none.
     -->
 
     <h1>Registration Form</h1>
