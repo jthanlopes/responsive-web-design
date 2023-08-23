@@ -1,6 +1,9 @@
 .frame {
   width: 500px;
   border: 50px solid black;
+
+  padding: 50px;
+  margin: 20px auto;
 }
 
 .canvas {
