@@ -1,14 +1,15 @@
 .frame {
   width: 500px;
-  border: 50px solid black;
-
-  padding: 50px;
   margin: 20px auto;
+  padding: 50px;
+
+  border: 50px solid black;
 }
 
 .canvas {
   width: 500px;
   height: 600px;
+  overflow: hidden;
 
   background-color: #4d0f00;
 }
@@ -16,5 +17,7 @@
 .one {
   width: 425px;
   height: 150px;
+  margin: 20px auto;
+
   background-color: #efb762;
 }
