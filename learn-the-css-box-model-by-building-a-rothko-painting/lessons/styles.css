@@ -12,6 +12,7 @@
   overflow: hidden;
 
   background-color: #4d0f00;
+  filter: blur(2px);
 }
 
 .one {
@@ -25,7 +26,7 @@
 .two {
   width: 475px;
   height: 200px;
-  margin: auto;
+  margin: 0 auto 20px;
 
   background-color: #8f0401;
 }
@@ -33,5 +34,7 @@
 .three {
   width: 91%;
   height: 28%;
+  margin: auto;
+
   background-color: #b20403;
 }
