@@ -21,6 +21,7 @@
   margin: 20px auto;
 
   background-color: #efb762;
+  box-shadow: 0 0 3px 3px #efb762;
 }
 
 .two {
@@ -31,10 +32,15 @@
   background-color: #8f0401;
 }
 
+.one, .two {
+  filter: blur(1px);
+}
+
 .three {
   width: 91%;
   height: 28%;
   margin: auto;
 
   background-color: #b20403;
+  filter: blur(2px);
 }
