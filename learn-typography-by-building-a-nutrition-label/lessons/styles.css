@@ -5,3 +5,8 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.label {
+  width: 270px;
+  border: 2px solid black;
+}
