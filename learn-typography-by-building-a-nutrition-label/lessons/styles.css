@@ -13,7 +13,6 @@ body {
 h1 {
   margin: -4px 0;
 
-  font-weight: 800;
   text-align: center;
   letter-spacing: 0.15px;
 }
@@ -33,4 +32,8 @@ p {
 .divider {
   margin: 2px 0;
   border-bottom: 1px solid #888989;
+}
+
+.bold {
+  font-weight: 800;
 }
