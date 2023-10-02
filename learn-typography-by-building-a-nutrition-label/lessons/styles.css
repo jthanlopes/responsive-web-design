@@ -18,6 +18,9 @@ h1 {
 }
 
 p {
+  display: flex;
+  justify-content: space-between;
+
   margin: 0;
 }
 
