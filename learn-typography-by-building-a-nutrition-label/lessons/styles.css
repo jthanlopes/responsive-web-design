@@ -10,13 +10,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1 {
-  margin: -4px 0;
-
-  text-align: center;
-  letter-spacing: 0.15px;
-}
-
 p {
   display: flex;
   justify-content: space-between;
@@ -32,6 +25,13 @@ p {
   border: 2px solid black;
 }
 
+header h1 {
+  margin: -4px 0;
+
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
 .divider {
   margin: 2px 0;
   border-bottom: 1px solid #888989;
@@ -39,4 +39,12 @@ p {
 
 .bold {
   font-weight: 800;
+}
+
+.large {
+  height: 10px;
+}
+
+.large, .medium {
+  background-color: black;
 }
