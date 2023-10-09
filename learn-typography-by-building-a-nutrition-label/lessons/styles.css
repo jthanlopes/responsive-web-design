@@ -71,6 +71,12 @@ header h1 {
 }
 
 .calories-info span {
+  margin: -7px -2px;
+
   font-size: 2.4em;
   font-weight: 700;
+}
+
+.medium {
+  height: 5px;
 }
