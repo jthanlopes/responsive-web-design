@@ -89,6 +89,6 @@ header h1 {
   margin-left: 1em;
 }
 
-.daily-value p {
+.daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
