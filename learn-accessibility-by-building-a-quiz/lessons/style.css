@@ -5,6 +5,14 @@ header {
   display: flex;
 }
 
+h1, h2 {
+  font-family: Verdana, sans-serif;
+}
+
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+}
+
 #logo {
   width: max(100px, 18vw);
   padding: 0.4rem;
