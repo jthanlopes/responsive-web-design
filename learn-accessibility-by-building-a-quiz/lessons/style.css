@@ -5,12 +5,21 @@ header {
   display: flex;
 }
 
-h1, h2 {
-  font-family: Verdana, sans-serif;
+h1 {
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
 }
 
 h2 {
   border-bottom: 4px solid #dfdfe2;
+}
+
+h1, h2 {
+  font-family: Verdana, sans-serif;
+}
+
+p::before {
+  content: "Question #";
 }
 
 #logo {
@@ -18,11 +27,6 @@ h2 {
   padding: 0.4rem;
   background-color: #0a0a23;
   aspect-ratio: 35/4;
-}
-
-h1 {
-  color: #f1be32;
-  font-size: min(5vw, 1.2em);
 }
 
 nav > ul {
