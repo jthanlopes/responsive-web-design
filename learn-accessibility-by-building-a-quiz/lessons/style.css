@@ -3,6 +3,10 @@ header {
   height: 50px;
   background-color: #1b1b32;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 h1 {
@@ -22,6 +26,17 @@ p::before {
   content: "Question #";
 }
 
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav > ul > li:hover {
+  cursor: pointer;
+  color: pink;
+  background-color: black;
+}
+
 #logo {
   width: max(100px, 18vw);
   padding: 0.4rem;
@@ -39,6 +54,12 @@ nav > ul > li {
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
+}
+
+nav > ul > li:hover {
+  cursor: pointer;
+  color: #1b1b32;
+  background-color: #dfdfe2;
 }
 
 .sr-only {
