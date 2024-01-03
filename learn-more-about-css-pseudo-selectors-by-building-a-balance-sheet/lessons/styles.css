@@ -15,4 +15,19 @@ span[class~="sr-only"] {
   height: 1px;
   overflow: hidden;
   white-space: nowrap;
+  position: absolute;
+  padding: 0;
+  margin: -1px;
+}
+
+h1 {
+  max-width: 37.25rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
 }
