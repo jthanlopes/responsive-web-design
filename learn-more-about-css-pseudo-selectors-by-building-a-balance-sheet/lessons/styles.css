@@ -8,16 +8,16 @@ body {
 }
 
 span[class~="sr-only"] {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-  padding: 0;
-  margin: -1px;
+  border: 0!important;
+  clip: rect(1px, 1px, 1px, 1px)!important;
+  clip-path: inset(50%)!important;
+  width: 1px!important;
+  height: 1px!important;
+  overflow: hidden!important;
+  white-space: nowrap!important;
+  position: absolute!important;
+  padding: 0!important;
+  margin: -1px!important;
 }
 
 h1 {
@@ -62,6 +62,10 @@ section {
   font-weight: bold;
   width: 4.5rem;
   text-align: right;
+}
+
+span {
+  font-weight: normal;
 }
 
 .table-wrap {
