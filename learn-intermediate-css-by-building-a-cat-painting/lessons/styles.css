@@ -7,21 +7,15 @@ body {
 }
 
 .cat-head {
-  position: sticky;
-  top: 100px;
-  left: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
   width: 205px;
   height: 180px;
   border: 1px solid #000;
   border-radius: 46%;
   background: linear-gradient(#5e5e5e 85%, #45454f 100%);
-}
-
-.box {
-  width: 200px;
-  height: 600px;
-  background-color: #000;
-  position: absolute;
-  top: 800px;
-  left: 650px;
 }
