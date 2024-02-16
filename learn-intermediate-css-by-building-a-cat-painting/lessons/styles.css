@@ -119,7 +119,19 @@ body {
 }
 
 .cat-right-inner-eye {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  border-radius: 60%;
+  transform: rotate(-5deg);
+
   width: 10px;
   height: 20px;
   background-color: #fff;
+}
+
+.cat-nose {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #442c2c;
 }
