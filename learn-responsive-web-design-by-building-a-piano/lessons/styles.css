@@ -1,3 +1,14 @@
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
 html {
   box-sizing: border-box;
+}
+
+#piano {
+  background-color: #00471b;
+  width: 992px;
+  height: 290px;
+  margin: 80px auto;
 }
