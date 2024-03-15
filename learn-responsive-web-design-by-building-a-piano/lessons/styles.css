@@ -20,3 +20,17 @@ html {
   height: 180px;
   padding-left: 2px;
 }
+
+.key {
+  background-color: #fff;
+  position: relative;
+  width: 41px;
+  height: 175px;
+  margin: 2px;
+  float: left;
+}
+
+.key.black--key::after {
+  content: "";
+  background-color: #1d1e22;
+}
