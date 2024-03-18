@@ -31,6 +31,10 @@ html {
 }
 
 .key.black--key::after {
+  position: absolute;
+  left: -18px;
   content: "";
   background-color: #1d1e22;
+  width: 32px;
+  height: 100px;
 }
